@@ -12,7 +12,7 @@ pthread_mutex_t mtx;
 
 int decrease_count(int count_resurse) 
 {
-    // Doamne... asta era lipsa (cu aclasi thread) si nu intelegeam
+    // Doamne... asta era lipsa (cu acelasi thread) si nu intelegeam
     //deci daca nu are resurse  threadul actual, el deblocheaza mutexul
     //si permite altui thread sa intre in zona critica si sa elibereze resurse
 
